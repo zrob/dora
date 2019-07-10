@@ -23,6 +23,10 @@ class Dora < Sinatra::Base
   use LogUtils
   use Curl
 
+get '/something' do
+"something"
+end
+
   get '/' do
     "Hi, I'm Dora!"
   end
