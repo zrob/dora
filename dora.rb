@@ -24,7 +24,7 @@ class Dora < Sinatra::Base
   use Curl
 
 get '/something' do
-"newer something"
+"other something"
 end
 
   get '/' do
