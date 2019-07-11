@@ -28,7 +28,7 @@ get '/something' do
 end
 
   get '/' do
-    "Hi, I'm Dora!"
+    "Hi, I'm Scott!"
   end
 
   get '/health' do
